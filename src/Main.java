@@ -1,7 +1,7 @@
 
 public class Main {
     public static void main(String[] args) {
-        int age = 19;
+        int age = 17;
         if (age >= 18) {
             System.out.println("Поздравление пользователя с совершеннолетием");
         }
@@ -34,6 +34,23 @@ public class Main {
             System.out.println("В вагоне " + seatPlace + " сидячих мест");
             System.out.println("В вагоне " + standingPlace + " стоячих мест.");
         }
+
+        //задание 4
+
+        int age3 = 25;
+        if (age3 >= 2 && age3 <= 6) {
+            System.out.println("Если возраст человека равен " + age3 + ", то ему нужно ходить в детский сад");
+        }
+        else if ( age3 >= 7 && age3 <= 18) {
+            System.out.println("Если возраст человека равен " + age3 + ", то ему нужно ходить в школу");
+        }
+        else if (age3 >= 18 && age3 <= 24) {
+            System.out.println("Если возраст человека равен " + age3 + ", то ему нужно в университет");
+        }
+        else {
+            System.out.println("Если возраст человека равен " + age3 + ", то ему пора на работу");
+        }
+
 
 
 
