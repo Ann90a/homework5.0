@@ -32,7 +32,7 @@ public class Main {
         }
         else {
             System.out.println("В вагоне " + seatPlace + " сидячих мест");
-            System.out.println("В вагоне " + standingPlace + " стоячих мест");
+            System.out.println("В вагоне " + standingPlace + " стоячих мест.");
         }
 
 
